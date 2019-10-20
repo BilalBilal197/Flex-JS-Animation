@@ -1,0 +1,75 @@
+body {
+    background-color: rgba(41, 33, 33, 0.2);
+    color: green;
+}
+
+.subdemo-title {
+  background-color: rgb(3, 3, 3);
+  width: 400px;
+  height: 50px;
+  margin-bottom: 0;
+}
+
+.button {
+  background-color: rgb(219, 134, 29);
+  border-radius: 25px;
+  border: none;
+}
+
+
+#myContainer {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background:  rgba(0, 0, 0, 1);
+  }
+
+  #flipContainer {
+    width: 750px;
+    height: 300px;
+    position: relative;
+    background: rgb(8, 8, 8);
+  }
+
+#myAnimation {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 45%;
+    background-color:rgb(218, 221, 9);
+  }
+
+  #myAnimation2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 45%;
+    background-color:rgb(172, 6, 6);
+  }
+  #myAnimation3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    /* margin-left: 45%; */
+    background-color:rgb(250, 245, 245);
+  }
+
+  .king{
+    display: flex;
+  }
+
+
+  .king img{
+    width: 150px;
+    height: 200px;
+    margin: 50px;
+    transition: transform 3s;
+    transform-style: preserve-3d;
+  }
+
+  .king img:hover{
+    transform: rotateX(360deg) rotateY(180deg);
+  }
