@@ -1,7 +1,7 @@
 # README
 
 # Introduction 
-This is the Flex-animation app. 
+This is the Flex-animation app. The app demonstrate awesome animations like 2d revolutions, hover effects, 3D effects.
 
 
 # Live Site
