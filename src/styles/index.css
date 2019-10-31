@@ -57,6 +57,24 @@ body {
     background-color:rgb(250, 245, 245);
   }
 
+  #myAnimation4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 45%;
+    background-color: rgb(218, 221, 9);
+  }
+
+  #myAnimation5 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 45%;
+    background-color: rgb(172, 6, 6);
+  }
+
   .king{
     display: flex;
   }

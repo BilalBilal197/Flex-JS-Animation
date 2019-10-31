@@ -8,15 +8,20 @@ function forward() {
     var elem1 = document.getElementById("myAnimation"); 
     var elem2 = document.getElementById("myAnimation2");   
     var elem3 = document.getElementById("myAnimation3");  
+    var elem4 = document.getElementById("myAnimation4");
+    var elem5 = document.getElementById("myAnimation5");
+    var elem6 = document.getElementById("myAnimation6"); 
     var pos = 0;
     var id = setInterval(frame, 10);
     function frame() {
       if (pos !== 350) {
         pos++; 
-        elem2.style.top = pos + 'px'; 
         elem1.style.left = pos + 'px'; 
+        elem2.style.top = pos + 'px'; 
         elem3.style.top = pos + 'px'; 
         elem3.style.left = pos + 'px'; 
+        elem4.style.left = pos - "px";
+        elem5.style.top = pos - "px"; 
       }
     }
   }
@@ -24,7 +29,10 @@ function forward() {
 function backward() {
     var elem1 = document.getElementById("myAnimation"); 
     var elem2 = document.getElementById("myAnimation2"); 
-    var elem3 = document.getElementById("myAnimation3");  
+    var elem3 = document.getElementById("myAnimation3"); 
+    var elem4 = document.getElementById("myAnimation4");
+    var elem5 = document.getElementById("myAnimation5");
+    var elem6 = document.getElementById("myAnimation6");  
     var pos = 350;
     var id = setInterval(frame, 10);
     function frame() {
@@ -35,6 +43,8 @@ function backward() {
         elem1.style.left = pos + 'px'; 
         elem3.style.top = pos + 'px'; 
         elem3.style.left = pos + 'px'; 
+        elem4.style.left = pos - "px";
+        elem5.style.top = pos - "px"; 
       }
     }
   }
