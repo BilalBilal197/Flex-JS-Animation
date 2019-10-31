@@ -14,6 +14,9 @@ The technologies for used to build this app include Vanilla Javascript, CSS3 and
 
 
 # Wireframe
+![Flex-JS-Animation](./)
+
+https://wireframe.cc/atMPyJ
 
 # Challenges faced
 Vanilla Javascript is best for making 2D animations. 3D.js is a more suitable library for creating 3D animations. 
