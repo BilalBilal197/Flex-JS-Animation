@@ -10,18 +10,22 @@ function forward() {
     var elem3 = document.getElementById("myAnimation3");  
     var elem4 = document.getElementById("myAnimation4");
     var elem5 = document.getElementById("myAnimation5");
-    var elem6 = document.getElementById("myAnimation6"); 
-    var pos = 0;
+    // var elem6 = document.getElementById("myAnimation6"); 
+    var pos1 = 0;
+    var pos2 = 350;
     var id = setInterval(frame, 10);
     function frame() {
-      if (pos !== 350) {
-        pos++; 
-        elem1.style.left = pos + 'px'; 
-        elem2.style.top = pos + 'px'; 
-        elem3.style.top = pos + 'px'; 
-        elem3.style.left = pos + 'px'; 
-        elem4.style.left = pos - "px";
-        elem5.style.top = pos - "px"; 
+      if (pos1 !== 350) {
+        pos1++; 
+        elem1.style.left = pos1 + 'px'; 
+        elem2.style.top = pos1 + 'px'; 
+        elem3.style.top = pos1 + 'px'; 
+        elem3.style.left = pos1 + 'px'; 
+      }
+      if (pos2 !== 0) {
+        pos2--;
+        elem4.style.left = pos2 + "px";
+        elem5.style.top = pos2 + "px";
       }
     }
   }
@@ -32,19 +36,22 @@ function backward() {
     var elem3 = document.getElementById("myAnimation3"); 
     var elem4 = document.getElementById("myAnimation4");
     var elem5 = document.getElementById("myAnimation5");
-    var elem6 = document.getElementById("myAnimation6");  
-    var pos = 350;
+    // var elem6 = document.getElementById("myAnimation6");  
+    var pos1 = 350;
+    var pos2 = 0;
     var id = setInterval(frame, 10);
     function frame() {
-      if (pos !== 0 ) {
-        
-        pos--; 
-        elem2.style.top = pos + 'px'; 
-        elem1.style.left = pos + 'px'; 
-        elem3.style.top = pos + 'px'; 
-        elem3.style.left = pos + 'px'; 
-        elem4.style.left = pos - "px";
-        elem5.style.top = pos - "px"; 
+      if (pos1 !== 0 ) {
+        pos1--; 
+        elem2.style.top = pos1 + 'px'; 
+        elem1.style.left = pos1 + 'px'; 
+        elem3.style.top = pos1 + 'px'; 
+        elem3.style.left = pos1 + 'px'; 
+      }
+      if (pos2 !== 350) {
+        pos2++;
+        elem4.style.left = pos2 + "px";
+        elem5.style.top = pos2 + "px";
       }
     }
   }
