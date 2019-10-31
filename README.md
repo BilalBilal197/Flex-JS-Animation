@@ -14,7 +14,7 @@ The technologies for used to build this app include Vanilla Javascript, CSS3 and
 
 
 # Wireframe
-![Flex-JS-Animation](./)
+![Flex-JS-Animation](./src/img/wireframe.png)
 
 https://wireframe.cc/atMPyJ
 
