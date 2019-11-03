@@ -25,7 +25,14 @@ Vanilla Javascript is best for making 2D animations. 3D.js is a more suitable li
 code snippet here
 
 # Future Direction 
-Refininig the project to include a more 2d and 3d animations. 
+The Project will contain the following effects
+1. Milky way spinning with clusters
+2. Hover effects
+3. 2D animations of all kind
+4. Text Effects
+5. 3D Box or Dice
+6. Running Characters
+7. NYC Street Scene
 
 # MVP List
 
