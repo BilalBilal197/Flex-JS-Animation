@@ -1,8 +1,8 @@
 // import './styles/index.css';
 
-window.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('app').innerText = "Hello World!";
-});
+// window.addEventListener('DOMContentLoaded', () => {
+//     document.getElementById('app').innerText = "Hello World!";
+// });
 
 function forward() {
     var elem1 = document.getElementById("myAnimation"); 
