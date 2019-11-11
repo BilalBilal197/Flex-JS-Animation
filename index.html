@@ -2,30 +2,286 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./src/styles/index.css">
+    
     <title>VanillaJS-Animation</title>
-  </head>
-  
-  <body>
-    
-    
-    <div>
-      <p class='intro'>CSS Demo</p>
-      <p class='test'>Contents</p>
-      <p class='test'>CSS Animations</p>
-      <p class='test'>Hover Effects</p>
-      <p class='test'>Street Scene Animation</p>
-      <p class='test'>3D animation</p>
-      <p class='test'>Clock</p>
+<!-- CSS Animations -->
+<link rel="stylesheet" type="text/css" href="animations.css">
+    <link rel="stylesheet" type="text/css" href="./src/loaderAnimations/animations.css">
+    <link rel="stylesheet" type="text/css" href="./src/loaderAnimations/loader2.css">
+    <link rel="stylesheet" type="text/css" href="./src/loaderAnimations/loader3.css">
+    <link rel="stylesheet" type="text/css" href="./src/loaderAnimations/loader4.css">
+    <link rel="stylesheet" type="text/css" href="./src/loaderAnimations/loader5.css">
+    <link rel="stylesheet" type="text/css" href="./src/loaderAnimations/loader6.css">
+    <link rel="stylesheet" type="text/css" href="./src/loaderAnimations/loader7.css">
+    <link rel="stylesheet" type="text/css" href="./src/loaderAnimations/loader8.css">
+    <link rel="stylesheet" type="text/css" href="./src/loaderAnimations/loader9.css">
+    <link rel="stylesheet" type="text/css" href="./src/loaderAnimations/loader10.css">
 
-    </div>
+    <!-- Hover Effects -->
+
+  <link rel="stylesheet" href="./src/hoverEffects/element1.css">
+   <link rel="stylesheet" href="./src/hoverEffects/element2.css">
+   <link rel="stylesheet" href="./src/hoverEffects/element3.css">
+   <link rel="stylesheet" href="./src/hoverEffects/element4.css">
+   <link rel="stylesheet" href="./src/hoverEffects/element5.css">
+   <link rel="stylesheet" href="./src/hoverEffects/element6.css">
+   <link rel="stylesheet" href="./src/hoverEffects/element7.css">
+   <link rel="stylesheet" href="./src/hoverEffects/element8.css">
+   <link rel="stylesheet" href="./src/hoverEffects/element9.css">
+   <link rel="stylesheet" href="./src/hoverEffects/body.css"> 
     
-  </body>
+<!-- city streets -->
+   <link rel="stylesheet" href="./src/cityStreet/street.css">
+
+<!-- 3dAnim -->
+
+<!-- Clock -->
+
+<!-- <link rel="stylesheet" type="text/css" href="./src/clock/canvas.css">
+<script src="./src/clock/time.js"></script>
+<link rel="stylesheet" type="text/css" href="./src/clock/clock.css"> -->
+
+
+</head>
   
-  </html>
+<body onload=display();>
+  
+  
+  <div>
+    <p class='intro'>CSS Demo</p>
+    <p class='test'>Contents</p>
+    <p class='test'>CSS Animations</p>
+    <p class='test'>Hover Effects</p>
+    <p class='test'>Street Scene Animation</p>
+    <p class='test'>3D animation</p>
+    <p class='test'>Clock</p>
+  </div>
+
+<div class="loaderAnimations">
+
+  <div class="parent color1">
+      <div class="loader loader1">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </div>
+  <div class="parent color2">
+      <div class="loader loader2">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </div>
+  <div class="parent color1">
+      <div class="loader loader3">
+          
+      </div>
+  </div>
+  <div class="parent color2">
+      <div class="loader loader4">
+          
+      </div>
+  </div>
+  <div class="parent color1">
+      <div class="loader loader5">
+          
+      </div>
+  </div>
+  <div class="parent color2">
+      <div class="loader loader6">
+          <div class="loader6inner"></div>
+          <div class="loader6inner"></div>
+          <div class="loader6inner"></div>
+      </div>
+  </div>
+  <div class="parent color1">
+      <div class="loader loader7">
+          
+      </div>
+  </div>
+  <!-- <div class="parent color2 width-2-col">
+      <div class="loader loader8">
+          
+      </div>
+  </div> -->
+  <div class="parent color2">
+      <div class="loader loader9">
+          
+      </div>
+  </div>
+  <div class="parent color1">
+      <div class="loader loader10">
+          
+      </div>
+  </div>
+</div>
+<br>
+<br>
+  <p>hoverEffects</p>
+<div></div>
+<div>
+  <div class="element1">
+      <div class="front">
+          <img src="./src/hoverEffects/images/avg1.jpg" alt="image">
+      </div>
+      <div class="back">
+          <div class="back-content">
+              <div class="pname">Lorem ipsum dolor sit.</div>
+              <div class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, quas!</div>
+              <div class="icons"></div>
+          </div>
+      </div>
+  </div>
+
+  <div class="element2">
+      <div class="front">
+          <img src="./src/hoverEffects/images/avg2.jpg" alt="image">
+      </div>
+      <div class="back">
+
+          <div class="see-container">
+              <div class="see"></div>
+              <div class="see"></div>
+              <div class="see"></div>
+              <div class="see"></div>
+          </div>
+          <div class="back-content">
+              <div class="pname">Lorem ipsum dolor sit.</div>
+              <div class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, quas!</div>
+              <div class="icons"></div>
+          </div>
+      </div>
+  </div>
+  <div class="element3">
+      <div class="front">
+          <img src="./src/hoverEffects/images/avg3.jpg" alt="image">
+      </div>
+      <div class="back">
+          <div class="back-content">
+              <div class="pname">Lorem ipsum dolor sit.</div>
+              <div class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, quas!</div>
+              <div class="icons"></div>
+          </div>
+      </div>
+  </div>
+  <div class="element4">
+      <div class="front">
+          <img src="./src/hoverEffects/images/avg4.jpg" alt="image">
+      </div>
+      <div class="back">
+          <div class="back-content">
+              <div class="pname">Lorem ipsum dolor sit.</div>
+              <div class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, quas!</div>
+              <div class="icons"></div>
+          </div>
+      </div>
+  </div>
+  <div class="element5">
+      <div class="front">
+          <img src="./src/hoverEffects/images/avg5.jpg" alt="image">
+      </div>
+      <div class="back">
+          <div class="back-content">
+              <div class="pname">Lorem ipsum dolor sit.</div>
+              <div class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, quas!</div>
+              <div class="icons"></div>
+          </div>
+      </div>
+  </div>
+  <div class="element6">
+      <div class="front">
+          <img src="./src/hoverEffects/images/avg6.jpg" alt="image">
+      </div>
+      <div class="back">
+          <div class="back-content">
+              <div class="pname">Lorem ipsum dolor sit.</div>
+              <div class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, quas!</div>
+              <div class="icons"></div>
+          </div>
+      </div>
+  </div>
+  <div class="element7">
+      <div class="front">
+          <img src="./src/hoverEffects/images/avg7.jpg" alt="image">
+      </div>
+      <div class="back">
+          <div class="back-content">
+              <div class="pname">Lorem ipsum dolor sit.</div>
+              <div class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, quas!</div>
+              <div class="icons"></div>
+          </div>
+      </div>
+  </div>
+  <div class="element8">
+      <div class="front">
+          <img src="./src/hoverEffects/images/avg8.jpg" alt="image">
+      </div>
+      <div class="back">
+          <div class="back-content">
+              <div class="pname">Lorem ipsum dolor sit.</div>
+              <div class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, quas!</div>
+              <div class="icons"></div>
+          </div>
+      </div>
+  </div>
+  <div class="element9">
+      <div class="front">
+          <img src="./src/hoverEffects/images/avg9.jpg" alt="image">
+      </div>
+      <div class="back">
+          <div class="back-content">
+              <div class="pname">Lorem ipsum dolor sit.</div>
+              <div class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, quas!</div>
+              <div class="icons"></div>
+          </div>
+      </div>
+  </div>
+</div>
+  <br>
+  <br>
+  <!-- city street animation -->
+
+<div class='cityStreet'>
+    <div class='animation-itself'>
+        <div class='bird'></div>
+        <div class='car1'></div>
+        <div class='car2'></div>
+        <div class='bike'></div>
+        <div class='boy'></div>
+    </div>
+  
+</div>
+
+<div class="3Danim">
+
+
+</div>
+
+<div class="clock">
+    <div class="parent color1">
+        <div class="loader loaderhr"> </div>
+        <div class="loader loadermin"> </div>
+        <div class="loader loadersec"> 
+            <div class="loader loaderminisec"> </div>
+            <div class="loader loadermicrosec"> </div>
+            <div class="loader loadermonth">
+                    <span id='date' ></span>
+            </div>
+        </div>
+    </div>
+</div>
+  
+  
+</body>
+  
+</html>
   
   
   

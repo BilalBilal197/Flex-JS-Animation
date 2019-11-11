@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.color1 {
+    background: linear-gradient(to bottom right, black, blue);
+}
+
+.color2 {
+    background: linear-gradient(to bottom right, purple, black);
+}
+
+
+.parent {
+    float:left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    height: 400px;
+}
+
+.width-2-col
+{
+    width: 66.66%
+}
+
+.loader {
+    position: relative;
+    /* background-color: white; */
+}

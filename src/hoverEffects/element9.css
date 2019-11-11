@@ -1,0 +1,27 @@
+
+.element9
+{
+    overflow: hidden;
+}
+
+.element9:hover .front
+{
+    left: 100%;
+    opacity: 0;
+}
+
+.element9 .back
+{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border:none;
+    left: -100%;
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+
+.element9:hover .back 
+{
+    left: 0%;
+    opacity: 1;
+}
