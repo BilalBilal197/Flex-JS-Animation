@@ -13,20 +13,20 @@
 
 
 .parent {
-    float:left;
+    /* float:left;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     width: 33.33%;
     height: 400px;
 }
 
-.width-2-col
+/* .width-2-col
 {
     width: 66.66%
-}
+} */
 
 .loader {
-    position: relative;
+    /* position: relative; */
     /* background-color: white; */
 }

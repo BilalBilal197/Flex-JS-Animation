@@ -1,107 +1,27 @@
-body {
-    background-color: rgba(41, 33, 33, 0.2);
-    color: green;
+.mainParent{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  /* width: 100%;
+  height: 100%; */
 }
-
-.subdemo-title {
-  background-color: rgb(3, 3, 3);
-  width: 400px;
-  height: 50px;
-  margin-bottom: 0;
+.content {
+  /* position: absolute; */
+  /* display: flex;
+  flex-direction: column; */
+  width: 100%;
+  height: 500px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 18px;
+  background-image: linear-gradient(to right, black, orange);
 }
-
-.button {
-  background-color: rgb(219, 134, 29);
-  border-radius: 25px;
-  border: none;
+.todo {
+  /* position: absolute; */
+  /* display: flex;
+  flex-direction: row; */
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(to right, black, brown);
 }
-
-
-#myContainer {
-    width: 400px;
-    height: 400px;
-    position: relative;
-    background:  rgba(0, 0, 0, 1);
-  }
-
-  #flipContainer {
-    width: 750px;
-    height: 300px;
-    position: relative;
-    background: rgb(8, 8, 8);
-  }
-
-#myAnimation {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    margin-top: 45%;
-    background-color:rgb(218, 221, 9);
-  }
-
-  #myAnimation2 {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 45%;
-    background-color:rgb(172, 6, 6);
-  }
-  #myAnimation3 {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    /* margin-left: 45%; */
-    background-color:rgb(250, 245, 245);
-  }
-
-  #myAnimation4 {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    left: 350px;
-    /* top: 150px; */
-    margin-top: 45%;
-    background-color: rgb(218, 221, 9);
-  }
-
-  #myAnimation5 {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    /* left: 100px; */
-    top: 350px;
-    margin-left: 45%;
-    background-color: rgb(172, 6, 6);
-  }
-
-  #myAnimation6 {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    top: 350px;
-    left: 350px;
-    background-color: rgb(250, 245, 245);
-  }
-
-  .king{
-    display: flex;
-  }
-
-
-  .king img{
-    width: 150px;
-    height: 200px;
-    margin: 50px;
-    transition: transform 3s;
-    transform-style: preserve-3d;
-  }
-
-  .king img:hover{
-    transform: rotateX(360deg) rotateY(180deg);
-  }

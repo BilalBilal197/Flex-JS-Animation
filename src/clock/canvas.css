@@ -10,7 +10,7 @@
 
 
 .parent {
-    position: absolute;
+    /* position: absolute; */
     float:center;
     display: flex;
     align-items: center;
