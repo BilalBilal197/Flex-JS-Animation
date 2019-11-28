@@ -13,7 +13,7 @@
     position: static;
     width: 100%;
     height: 500px;
-    background-color: blueviolet;
+    background-image: linear-gradient(to right, black, orange);
 }
 
 /* //opengameart.org - flying birds attach sprite sheets  used for birds images*/
