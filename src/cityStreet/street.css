@@ -1,0 +1,175 @@
+.animation-itself
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background:url(./images/buildings-art-street-city.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 50;
+    
+}
+
+/* //opengameart.org - flying birds attach sprite sheets  used for birds images*/
+
+@keyframes bird
+{
+    from {
+        background-position-x: 0%;
+    }
+    to {
+        background-position-x: 100%;
+    }
+}
+
+@keyframes birdmove
+{
+    0%
+    {
+        left:0;
+        top: 5%;
+    }
+   
+    100%{
+        left: 100%;
+        top:5%;
+    }
+}
+
+.bird
+{
+    position: absolute;
+    width: 100px;
+    height: 69px;
+    background:url(./images/bird2.png);
+    animation: bird 1s steps(3) infinite, birdmove 5s linear infinite;
+}
+
+/* /Car 1/ */
+
+@keyframes car1
+{
+    0% {
+        left: -140%;
+    }
+    100% {
+        left: 120%;
+    }
+}
+
+.car1
+{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    width: 300px;
+    height: 200px;
+    z-index: 2;
+    background: url(./images/car1.png);
+    animation:car1 8s infinite;
+    
+}
+
+@keyframes car2
+{
+    0% {
+        right: -240%;
+        
+    }
+    100% {
+        right: 120%;
+        
+    }
+}
+
+.car2
+{
+    position: absolute;
+    top: 85%;
+    right: 100%;
+    width: 300px;
+    height: 125px;
+    z-index: 3;
+    background: url(./images/car2.png);
+    animation:car2 4s infinite 4s;
+    
+}
+
+/* /bike/ */
+
+@keyframes bike
+{
+    0% {
+        right: -240%;
+        
+    }
+    100% {
+        right: 120%;
+        
+    }
+    
+}
+
+.bike
+{
+    position: absolute;
+    top: 87%;
+    right: 100%;
+    width: 150px;
+    height: 125px;
+    z-index: 4;
+    background: url(./images/bike.png);
+    animation:bike 8s infinite 5s;
+    
+}
+
+/* boy */
+
+@keyframes boy-walk
+{
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position-x: 100%;
+    }
+}
+
+@keyframes boymove
+{
+    
+
+    0%
+    {
+        left:0;
+       
+    }
+   
+    100%{
+        left: 100%;
+        
+    }
+}  
+
+.boy
+{
+    position: absolute;
+    bottom: 15%;
+    width: 140px;
+    height: 120px;
+    z-index: 1;
+    background:url(./images/boy_walk3.png);
+    animation: boy-walk 2s steps(14) infinite, boymove 7s linear infinite;
+}
+
+.title{
+    background: black;
+    color: white;
+    text-align: center;
+    justify-content: end;;
+    font-size: 60px;
+    width: 100vw;
+    height: 70;
+}
+
+
+/* animation: bird 1s steps(3) infinite, birdmove 5s linear infinite; */

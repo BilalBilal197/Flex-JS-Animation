@@ -1,0 +1,58 @@
+
+
+.element1 .back-content
+{
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s ease;
+}
+
+.element1:hover .back-content
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.element1:hover .front 
+{
+    opacity: 0;
+    top: 100%
+}
+
+.element1 .back:before
+{
+    position: absolute;
+    content: '';
+    top: 200px;
+    bottom: 200px;
+    right: 50px;
+    left: 50px;
+    /* border-right: 2px solid #fff;
+    border-left: 2px solid #fff; */
+    transition: all 1s ease;
+}
+
+.element1 .back:after
+{
+    position: absolute;
+    content: '';
+    top: 50px;
+    bottom: 50px;
+    right: 200px;
+    left: 200px;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    transition: all 1s ease;
+}
+
+.element1:hover .back:before
+{
+    top: 30px;
+    bottom: 30px;
+}
+
+.element1:hover .back:after
+{
+    right: 30px;
+    left: 30px;
+}

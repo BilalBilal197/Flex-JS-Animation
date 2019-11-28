@@ -1,0 +1,53 @@
+.element2:hover .front 
+{
+    opacity: 0;
+}
+
+.element2 .back-content
+{
+    transform: scale(0);
+    transition: all 0.5s ease;
+}
+
+.element2:hover .back-content
+{
+    transform: scale(1);
+}
+
+.element2 .see
+{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: (to bottom, blue, red);
+
+    z-index: -3;
+    transition: all 0.5s ease;
+    transform:scale(0,1);
+}
+
+.element2 .back 
+{
+    color: white
+}
+
+.element2 .see:nth-child(2)
+{
+    left: calc(25%);
+}
+.element2 .see:nth-child(3)
+{
+    left: calc(50%);
+}
+.element2 .see:nth-child(4)
+{
+    left: calc(75%);
+}
+
+.element2:hover .see 
+{
+    width: 25%;
+    transform:scale(1,1);
+}

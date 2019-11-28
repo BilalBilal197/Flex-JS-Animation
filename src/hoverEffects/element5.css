@@ -1,0 +1,16 @@
+.element5:hover .front
+{
+    transform:scale(0.35);
+    top: 90px;
+    box-shadow: 0 0 40px white, 0 0 0px 30px black, 0 0 60px white;
+}
+
+.element5 .back-content
+{
+    transition: all 0.5s ease;
+}
+
+.element5:hover .back-content
+{
+    transform: translatey(-60px);
+}
