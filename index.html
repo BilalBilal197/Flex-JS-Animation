@@ -6,11 +6,7 @@
     <title>Flex-Animation</title>
     <link rel="stylesheet" href="./src/styles/index.css">
 
-    <!-- Clock -->
-    <link rel="stylesheet" type="text/css" href="./src/clock/canvas.css">
-   <script src="./src/clock/time.js"></script>
-    <link rel="stylesheet" type="text/css" href="./src/clock/clock.css">
-
+    
     <!-- Loader Animation -->
     <title>Shape Shifters</title>
     <link rel="stylesheet" type="text/css" href="./src/loaderAnimations/animations.css">
@@ -46,23 +42,28 @@
     <title>Hurry Scurry</title>
     <link rel="stylesheet" href="./src/cityStreet/street.css">
     
+    <!-- Tick Tock -->
+    <title>Tick Tock</title>
+    <link rel="stylesheet" type="text/css" href="./src/clock/canvas.css">
+    <script src="./src/clock/time.js"></script>
+    <link rel="stylesheet" type="text/css" href="./src/clock/clock.css">
 
 </head>
   
 <body onload=display();>
-  <!-- <div class="mainParent"> -->
+  <div class="mainParent">
       <div class="content">
         <p class='intro'>CSS Demo</p>
         <p class='test'>Contents</p>
-        <p class='test'>CSS Animations</p>
-        <p class='test'>Hover Effects</p>
-        <p class='test'>Street Scene Animation</p>
-        <p class='test'>3D animation</p>
-        <p class='test'>Clock</p>
+        <p class='test'>Shape Shifters : 2D Animations</p>
+        <p class='test'>Unmasked: Hover Effects</p>
+        <p class='test'>Whacky Box: 3D Animation</p>
+        <p class='test'>Hurry Scurry: Street Scene Animation</p>
+        <p class='test'>Tick Tock: Clock</p>
       </div>
      
         <div class="todo1">
-            <div></div>
+            <div><p>Shape Shifters : 2D Animations</p></div>
         </div>
        
         
@@ -140,7 +141,7 @@
             <div></div>
         </div>
         <div class="todo1">
-            <div></div>
+            <div><p>Unmasked : Hover Effects</p></div>
         </div>
         
                                 <div class="gp-hoverEffects">
@@ -271,7 +272,7 @@
                                     </div>
                                 </div>
         <div class="todo1">
-            <div></div>
+            <div><p>Whacky Box : 3D Animation</p></div>
         </div>
         
                                 <div class="gp-threeDimensions">
@@ -307,7 +308,7 @@
             <div></div>
         </div>
         <div class="todo1">
-            <div></div>
+            <div><p>Hurry Scurry : Street Scene Animation</p></div>
         </div>
         
                                 <div class='gp-cityStreet'>
@@ -322,11 +323,23 @@
                                 </div>
 
         <div class="todo1">
-            <div></div>
+            <div><p>Tick Tock: Clock</p></div>
         </div>
-        <div class="todo2-clock">
+        <!-- <div class="todo2-clock">
             <div></div>
-        </div>
+        </div> -->
+
+                            <div class="parent-clock color1">
+                                <div class="loader loaderhr"> </div>
+                                <div class="loader loadermin"> </div>
+                                <div class="loader loadersec">
+                                    <div class="loader loaderminisec"> </div>
+                                    <div class="loader loadermicrosec"> </div>
+                                    <div class="loader loadermonth">
+                                        <span id='date'></span>
+                                    </div>
+                                </div>
+                            </div>
         
 
   
