@@ -22,6 +22,6 @@
   /* display: flex;
   flex-direction: row; */
   width: 100%;
-  height: 500px;
+  height: 200px;
   background-image: linear-gradient(to right, black, brown);
 }
