@@ -32,8 +32,8 @@
 
 .loader6
 {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 .loader6 .loader6inner
@@ -64,9 +64,9 @@
 }
 .loader6 .loader6inner:nth-child(3)
 {
-    top: 40px;
-    left: 40px;
-    width: 120px;
-    height: 120px;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
     animation:loader6c 2s infinite;
 }

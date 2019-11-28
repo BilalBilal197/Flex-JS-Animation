@@ -32,8 +32,8 @@
 
 
 .loader3 {
-    width: 200px;
-    height: 300px;
+    width: 100px;
+    height: 150px;
     border: 5px;
     animation:loader3 2s ease infinite;
 }
@@ -45,9 +45,9 @@
    height: 0; 
    top: 0;
    left: 0;
-   border-bottom: 100px solid green;
-   border-right: 100px solid transparent;
-   border-left: 100px solid transparent;
+   border-bottom: 50px solid green;
+   border-right: 50px solid transparent;
+   border-left: 50px solid transparent;
    animation:loader3before 2s ease infinite;
 }
 
@@ -58,10 +58,10 @@
     height: 0; 
     bottom: 0;
     left: 0;
-    border-top: 100px solid red;
-    border-right: 100px solid transparent;
-    border-left: 100px solid transparent;
-    border-bottom: 50%;
+    border-top: 50px solid red;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 25%;
     animation:loader3after 1s ease infinite;
 
  }

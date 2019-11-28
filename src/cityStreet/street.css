@@ -1,12 +1,19 @@
-.animation-itself
+.gp-cityStreet
 {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100vh;
     background:url(./images/buildings-art-street-city.png) no-repeat;
     background-size: 100% 100%;
     z-index: 50;
     
+}
+
+.test{
+    position: static;
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
 }
 
 /* //opengameart.org - flying birds attach sprite sheets  used for birds images*/

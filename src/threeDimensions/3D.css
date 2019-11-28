@@ -7,8 +7,8 @@
   
 
 
-  .stage {
-      position: relative;
+  .gp-threeDimensions {
+      position: absolute;
       width: 100vw;
       height: 100vh;
       background-image: linear-gradient(to right, black, red);
@@ -26,7 +26,7 @@
 
   } */
 
-  .stage .cubespinner1 .spot {
+  .gp-threeDimensions .cubespinner1 .spot {
     position: relative;
     width: 25px;
     height: 25px;
@@ -77,7 +77,7 @@
   }
   
   
-  .stage .cubespinner1 .face {
+  .gp-threeDimensions .cubespinner1 .face {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -101,7 +101,7 @@
 
 
 
-  .stage .cubespinner2 img {
+  .gp-threeDimensions .cubespinner2 img {
     position: relative;
     width: 100%;
     height: 100%;
