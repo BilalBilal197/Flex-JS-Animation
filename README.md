@@ -7,7 +7,6 @@
 * Webpack to bundle script and translate JS as needed
 
 
-<img width="1436" alt="Screen Shot 2019-11-29 at 11 17 47 AM" src="https://user-images.githubusercontent.com/34456998/60604117-f600c400-9d84-11e9-9d35-29b6d358b7fe.png">
 
 <img width="1436" alt="Screen Shot 2019-11-29 at 11 17 47 AM" src="https://github.com/BilalBilal197/Flex-JS-Animation/blob/master/src/srcImg/contents.png">
 
@@ -16,7 +15,7 @@
 The main goal in creating this project is to demonstrate two-dimensional and three-dimensional animation using pure JavaScript and CSS3. The animations demonstrate my mastery of the DOM manipulation and DataTime properties of JavaScript library as well as various advance CSS features including transitions and transformation effects. The project is further divided into five parts each part showcasing different kind of visual effects implemented using either CSS3 advance tools, JS DOM or both. The five parts of the projects are named as Shape Shifters, UnMasked, Whacky Box, Hurry Scurry, Tick Tock. The names are choosen keeping in mind the visual effects the respective part delivers. The unique names assist users easier to relate the sub-parts of the project. 
 
 
-<img width="1440" alt="Screen Shot 2019-07-03 at 11 24 19 AM" src="https://user-images.githubusercontent.com/34456998/60604211-2b0d1680-9d85-11e9-8b71-7cf9378a003a.png">
+<img width="1440" alt="Screen Shot 2019-07-03 at 11 24 19 AM" src="https://github.com/BilalBilal197/Flex-JS-Animation/blob/master/src/srcImg/clock.png">
 
 ### Functionality and MVP Features
 
