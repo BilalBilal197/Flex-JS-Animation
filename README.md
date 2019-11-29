@@ -16,6 +16,7 @@ The main goal in creating this project is to demonstrate two-dimensional and thr
 
 
 <img width="1440" alt="Screen Shot 2019-07-03 at 11 24 19 AM" src="https://github.com/BilalBilal197/Flex-JS-Animation/blob/master/src/srcImg/clock.png">
+<img width="1440" alt="Screen Shot 2019-07-03 at 11 24 19 AM" src="https://github.com/BilalBilal197/Flex-JS-Animation/blob/master/src/srcImg/unmasked.png">
 
 ### Functionality and MVP Features
 
