@@ -25,40 +25,16 @@ The main goal in creating this project is to demonstrate two-dimensional and thr
 * Hurry Scurry showcases how different components and features of CSS can be applied to different images while keeping the overall composition of several pieces working together in harmony
 * Tick Tock is a mix of watch and clock that exhibits current time on the watch as well as a functionality of a clock 
 
-
-
-
-```javascript
-    move(command){
-
-        switch (command) {
-            case "left":
-                    this.dx -= 3;
-                break;
-            case "right":
-                    this.dx += 3;
-                break;
-            case "jump":
-                if (this.warriorPos[1] === 461)
-                this.dy -= 20;
-                break;
-            case "up":
-                if (this.shieldStance === "low"){
-                    this.shieldStance = "middle";
-                } else if(this.shieldStance === "middle") {
-                    this.shieldStance = "top";
-                }
-                break;
-            case "down":
-                if (this.shieldStance === "middle"){
-                    this.shieldStance = "low";
-                } else if(this.shieldStance === "top") {
-                    this.shieldStance = "middle";
-                }
-                break;
-            default:
-                break;
-        }
+```javascript DOM Manipulation and Current Time functions
+    function display(){
+    mytime=setTimeout('time()',1000)
+    }
+function time() {
+    let dt = new Date().getHours() + ":" + new Date().getMinutes() + ":" + new Date().getSeconds();
+    // let dm = new Date().getDay() + ":" + new Date().getMonth();
+    document.getElementById('date').innerHTML = dt;
+    // document.getElementById('month&day').innerHTML = dm;
+    display();
     }
 ```
 
