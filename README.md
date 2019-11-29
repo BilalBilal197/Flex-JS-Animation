@@ -48,7 +48,7 @@ function time() {
 
 ### Bonus Goals
 * Add the sixth animation showcasing weather effects including sunshine and rain
-* Add a seventh animation demonstrating Spinning animations
+* Add a seventh animation demonstrating different kinds of spinning effecs
 
 
 
