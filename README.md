@@ -1,5 +1,5 @@
 
-# Atomic Warriors
+# Flex - Animations
 
 ### Architecture and Technologies
 * JavaScript for DOM Manipulation and Current Date/Time Functionality
@@ -19,22 +19,13 @@ The main goal in creating this project is to demonstrate two-dimensional and thr
 ### Functionality and MVP Features
 
 
-* The Shape Shifter is a loader Animation that shows nine unique kind of animations triggers on load
-* The Unmasked demonstrate various kind of hover effects that also have great uses for web front end design
-* The Whacky Box 
-*
-*
+* Shape Shifters is a loader Animation that shows nine unique kind of animations triggers on load
+* Unmasked demonstrate various kind of hover effects that also have great uses for web front end design
+* Whacky Box displays a three-dimensional box with unique gif on all faces. 
+* Hurry Scurry showcases how different components and features of CSS can be applied to different images while keeping the overall composition of several pieces working together in harmony
+* Tick Tock is a mix of watch and clock that exhibits current time on the watch as well as a functionality of a clock 
 
 
-* Character can move, jump, and move their shield based on keyboard inputs
-+ Walk AD/JL, move shield WS/IK, jump F/;, shield throw G/'
-* Character movements are limited appropriately by the environment (cannot jump on air, fall through floor, walk through walls, etc.)
-* A character is eliminated if their body contacts the other character's shield or if the other     character lands on their head
-* The game correctly identifies when a player is eliminated, ending the round, attributing the point and starting a new round
-* The game tracks each player's wins, ending the match when one player hits three wins
-* Distinct color for the each character and their shield
-* Menu allows players to pause/play game, restart match, and control sound
-+ Spacebar pauses/plays and M mute/unmutes sound
 
 
 ```javascript
@@ -72,17 +63,15 @@ The main goal in creating this project is to demonstrate two-dimensional and thr
 ```
 
 ### Implementation
-* Tuesday - Skeleton of character movement is completed
-* Wednesday - Characters are able to eliminate one another and second player is added
-* Thursday - and the system for winning a match is fully implemented
-* Friday -  Stage design complete and round and match system finalized
+* Monday - Transition and tranformation effects are implemented on the Unmasked and Shape Shifters
+* Tuesday - Three-dimensional rotation effects applied on Whacky Box
+* Wednesday - Motion effects on Hurry Scurry are completed
+* Thursday - DOM manipulation and current time functionality on Tick Tock finished 
+* Friday -  Styled the pages and the parts of the project
 
 ### Bonus Goals
-* Scrolling backstory loop while game is waiting for match to start
-* More stages
-* Choice of character color
-* Shields can be thrown and regenerate appropriately
-* AI added
+* Add the sixth animation showcasing weather effects including sunshine and rain
+* Add a seventh animation demonstrating Spinning animations
 
 
 
@@ -96,53 +85,3 @@ The main goal in creating this project is to demonstrate two-dimensional and thr
 
 
 
-# README
-
-# Introduction 
-This is the Flex-animation app. The app demonstrate awesome animations like 2d revolutions, hover effects, 3D effects, a street scene animation and a clock implementation using JS.
-
-
-# Live Site
-to access the app live, go to
-https://bilalbilal197.github.io/Flex-JS-Animation/
-
-
-# technologies used
-The technologies for used to build this app include Vanilla Javascript, CSS3 and HTML5.
-
-
-# Wireframe
-![Flex-JS-Animation](./src/srcImg/wireframe.png)
-
-https://wireframe.cc/atMPyJ
-
-# Challenges faced
-Vanilla Javascript is best for making 2D animations. although 3D.js is a more suitable library for creating 3D animations but, for the sake of demonstrating the mastery of JavaScript, the 3D animation is implemented using vanilla Javascript. 
-
-# Code snippets
-code snippet here
-
-# Future Direction 
-The Project will contain the following effects
-1. Nine Two Dimentional Loader Animations
-2. Nine Hover effects
-3. A street scene demonstrating implementation of frame movements
-4. 3D Box or Dice
-5. A clock implemented using Javascript DOM manipulation
-
-
-# MVP List
-
-Hosting on github live (10/20/2019)
-
-Using DOM manipulation for the first part (11/04/2019)
-
-learn and implement spinning animation (11/05/2019)
-
-learn general CSS animation and create a seperate section with 6 to 9 2D animations (11/06/19)
-
-create 3D animation using 3D.js (11/07/19)
-
-create a clock using JavaScript DOM Manipulation (11/08/19)
-
-Production README (11/10/2019, 0.5 days)
