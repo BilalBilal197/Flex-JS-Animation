@@ -49,6 +49,7 @@
 a:link {
   font-size: 30px;
   color: red;
+  float: right;
 }
 
 .test{
