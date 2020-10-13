@@ -43,10 +43,11 @@
   height: 70vh;
 }
 .intro{
-  font-size: 20px;
+  font-size: 50px;
 }
 
-.intro a:link {
+a:link {
+  font-size: 30px;
   color: red;
 }
 
